@@ -491,3 +491,69 @@ section {
 .footer-social-link:focus {
   background-color: #31d0aa;
 }
+
+.subscribe {
+  width: 100%;
+  margin-left: 80px;
+}
+.subscribe-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+.subscribe-form {
+  gap: 24px;
+}
+.subscribe-label {
+}
+.subscribe-input {
+  padding: 7px 16px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: transparent;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscribe-input::placeholder {
+  color: #fff;
+}
+
+.subscribe-input:hover,
+.subscribe-input:focus {
+  border: 1px solid #fff;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 16px;
+  border-radius: 4px;
+  padding: 8px 24px;
+  width: 165px;
+  height: 40px;
+  background: #4d5ae5;
+}
+.subscribe-btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  fill: #fff;
+}
+.subscribe-btn-icon {
+  fill: #fff;
+}
