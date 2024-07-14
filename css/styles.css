@@ -713,7 +713,7 @@ section {
   fill: #4d5ae5;
 }
 
-.user-comment-tex{
+.user-comment-text {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 12px;
@@ -738,7 +738,7 @@ section {
   color: rgba(46, 47, 66, 0.4);
 }
 
-.user-comment-tex:hover,
+.user-comment-text:hover,
 .user-comment-text:focus {
   border-color: #4D5AE5;
 }
