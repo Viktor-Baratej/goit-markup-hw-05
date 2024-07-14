@@ -667,7 +667,7 @@ section {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.7;
+  line-height:1.7;
   letter-spacing: 0.04em;
   color: #8e8f99;
   margin-bottom: 4px;
@@ -791,10 +791,12 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
   margin: 0 auto;
+  display: block;
   border-radius: 4px;
   padding: 16px 32px;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #4d5ae5;
