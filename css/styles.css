@@ -553,6 +553,7 @@ section {
 }
 
 .subscribe-btn {
+  min-width: 165px;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -563,6 +564,7 @@ section {
 }
 
 .subscribe-btn-icon {
+  margin-left: 16px;
   fill: #fff;
 }
 
