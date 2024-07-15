@@ -652,9 +652,7 @@ section {
   margin-bottom: 16px;
 }
 
-/* .order-form {
-  
-} */
+
 
 .modal-field {
 
@@ -789,7 +787,7 @@ section {
   fill: transparent;
 }
 
-.label-checkbox-span:checked {
+.checkbox-privacy:checked + label-checkbox > label-checkbox-span {
 background-color: #404bbf;
 border: none;
 fill: #F4F4FD;
