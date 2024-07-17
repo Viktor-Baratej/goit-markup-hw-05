@@ -732,6 +732,10 @@ section {
   border-color: #4d5ae5;
 }
 
+.textarea-comment {
+  margin-bottom: 16px;
+}
+
 .checkbox {
   margin-bottom: 24px;
 }
