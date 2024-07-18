@@ -678,8 +678,14 @@ section {
 }
 
 .modal-input:hover,
-.modal-input:focus {
+.modal-input:focus  {
   border: 1px solid #4d5ae5;
+  
+}
+
+.modal-input:hover + .input-icon,
+.modal-input:focus + .input-icon {
+  fill: #4d5ae5;
 }
 
 .input-icon {
@@ -691,10 +697,7 @@ section {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-icon:hover,
-.input-icon:focus {
-  fill: #4d5ae5;
-}
+
 
 .user-comment-text {
   font-family: 'Roboto', sans-serif;
