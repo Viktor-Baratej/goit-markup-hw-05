@@ -103,15 +103,13 @@ section {
 .header-contacts {
   font-style: normal;
   margin-left: auto;
+  color: #404bbf;
 }
 
 .nav-menu-link:hover::after,
 .nav-menu-link:focus::after,
 .nav-menu-link.is-active::after {
   transform: scaleX(1);
-}
-.nav-menu-link {
-  color: #404bbf;
 }
 
 .nav {
@@ -186,11 +184,10 @@ section {
   background-color: #4d5ae5;
   border-radius: 4px;
   padding: 16px 32px;
-  min-width: 169px;
+  width: 169px;
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   border: none;
-  transition: background-color 0.4s ease-in-out;
   display: block;
   margin: 0 auto;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -199,6 +196,7 @@ section {
 .btn:hover,
 .btn:focus {
   background-color: #404bbf;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .section-title {
@@ -540,8 +538,6 @@ section {
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  gap: 16px;
-
   border-radius: 4px;
   padding: 8px 24px;
   width: 165px;
@@ -684,14 +680,13 @@ section {
 .modal-input:hover,
 .modal-input:focus {
   border: 1px solid #4d5ae5;
-  border-color: #4d5ae5;
 }
 
 .input-icon {
   position: absolute;
   left: 16px;
   top: 50%;
-  fill: #4d5ae5;
+  fill: #2e2f42;
   transform: translateY(-50%);
   color: #2e2f42;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -717,7 +712,6 @@ section {
   width: 100%;
   resize: none;
   padding: 8px 16px;
-  margin-bottom: 16px;
   outline: transparent;
   background-color: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
