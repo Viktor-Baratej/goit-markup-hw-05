@@ -183,20 +183,23 @@ section {
   cursor: pointer;
   background-color: #4d5ae5;
   border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   border: none;
-  display: block;
-  margin: 0 auto;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn:hover,
 .btn:focus {
   background-color: #404bbf;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+.order-btn {
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  display: block;
+  margin: 0 auto;
+  white-space: nowrap;
 }
 
 .section-title {
@@ -533,27 +536,14 @@ section {
   border: 1px solid #fff;
 }
 
-.btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  border-radius: 4px;
-  padding: 8px 24px;
-  width: 165px;
-  height: 40px;
-  background: #4d5ae5;
-}
-
 .subscribe-btn {
   min-width: 165px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
   text-align: center;
   fill: #fff;
+  display: flex;
+  padding: 8px 24px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .subscribe-btn-icon {
@@ -678,9 +668,8 @@ section {
 }
 
 .modal-input:hover,
-.modal-input:focus  {
+.modal-input:focus {
   border: 1px solid #4d5ae5;
-  
 }
 
 .modal-input:hover + .input-icon,
@@ -696,8 +685,6 @@ section {
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-
 
 .user-comment-text {
   font-family: 'Roboto', sans-serif;
